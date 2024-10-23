@@ -38,3 +38,46 @@ h1 {
   line-height: 1.7rem;
   font-weight: 500;
 }
+
+.top--text-section {
+  margin-bottom: 3rem;
+}
+
+/*Ratings Section*/
+
+.top--ratings-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.rating-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.rating {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--rating-bg-clr);
+  border-radius: .5rem;
+  padding: 1.125rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
