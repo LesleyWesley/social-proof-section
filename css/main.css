@@ -82,6 +82,8 @@ h1 {
   padding: 1.125rem;
   font-weight: 700;
   font-size: 1.125rem;
+  max-width: 400px;
+
 }
 
 .stars {
@@ -119,6 +121,7 @@ h1 {
   gap: 2rem;
   padding: 2rem;
   border-radius: .5rem;
+  max-width: 300px;
 }
 
 .testimonial--header {
@@ -160,4 +163,22 @@ h3 {
   font-size: 1.125rem;
   line-height: 1.5rem;
   color: var(--rating-bg-clr);
+}
+
+
+@media (min-width: 700px) {
+  .rating {
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1.25rem 2rem;
+    justify-content: flex-start;
+  }
+
+  .reviews {
+    justify-content: flex-start;
+  }
+
+  .besttech {
+    justify-content: flex-end;
+  }
 }
