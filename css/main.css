@@ -167,6 +167,14 @@ h3 {
 
 
 @media (min-width: 700px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .top--text-section p {
+    font-size: 1.25rem;
+  }
+
   .rating {
     flex-direction: row;
     gap: 2rem;
