@@ -23,7 +23,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 90%;
+  max-width: 1200px;
 }
 
 h1 {
@@ -121,7 +123,7 @@ h1 {
   gap: 2rem;
   padding: 2rem;
   border-radius: .5rem;
-  max-width: 300px;
+  max-width: 315px;
 }
 
 .testimonial--header {
