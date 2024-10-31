@@ -192,3 +192,36 @@ h3 {
     justify-content: flex-end;
   }
 }
+
+@media (min-width: 1000px) {
+
+
+  main {
+    width: 80%;
+  }
+
+  .top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .top--text-section {
+    width: 50%;
+  }
+
+  h1 {
+    text-align: left;
+    width: 80%;
+  }
+
+  .top--text-section p {
+    text-align: left;
+    width: 85%;
+  }
+
+  .top--ratings-section {
+    width: 48%;
+  }
+
+
+}
