@@ -223,5 +223,8 @@ h3 {
     width: 48%;
   }
 
+  .testimonial-section {
+    flex-direction: row;
+  }
 
 }
